@@ -1,0 +1,19 @@
+# Secrets that should NEVER be managed by chezmoi unencrypted
+.ssh/id_*
+.ssh/known_hosts
+.gnupg/
+.aws/credentials
+.env
+.netrc
+.npmrc
+.pypirc
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Transient state
+.bash_history
+.zsh_history
+.lesshst
+.python_history
