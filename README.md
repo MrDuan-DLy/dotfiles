@@ -40,11 +40,11 @@ Self-written userscripts, stored in this repo for cross-machine sync. Not manage
 
 Install on a new machine: Tampermonkey → Utilities → Import from URL:
 
-| Script | Install |
-|--------|---------|
-| BB Discussion Extractor | [Install](https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/BB-Discussion-Extractor.user.js) |
-| Claude Chat Exporter | [Install](https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/Claude-Chat-Exporter.user.js) |
-| 自动提取字幕工具 | [Install](https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/bb-transcript-extractor.user.js) |
+| Script | URL |
+|--------|-----|
+| BB Discussion Extractor | `https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/BB-Discussion-Extractor.user.js` |
+| Claude Chat Exporter | `https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/Claude-Chat-Exporter.user.js` |
+| 自动提取字幕工具 | `https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/bb-transcript-extractor.user.js` |
 
 ## Claude Code `/notes` Skill
 
