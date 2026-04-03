@@ -12,6 +12,10 @@
 .DS_Store
 Thumbs.db
 
+# Non-chezmoi files (stored in repo but not managed as dotfiles)
+tampermonkey/
+README.md
+
 # Transient state
 .bash_history
 .zsh_history
