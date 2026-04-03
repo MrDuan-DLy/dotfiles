@@ -13,6 +13,7 @@ Managed by [chezmoi](https://www.chezmoi.io/). Secrets encrypted with [age](http
 | `~/.gitconfig` | Git global config | No |
 | `~/.ssh/config` | SSH config (hosts, aliases) | **Yes** (age) |
 | `~/.tmux.conf` | Tmux config | No |
+| `tampermonkey/` | Tampermonkey userscripts (not managed by chezmoi, raw URL install) | No |
 
 ## New Machine Setup
 
@@ -32,6 +33,18 @@ chmod 600 ~/.config/chezmoi/key.txt
 # 3. Init + apply
 chezmoi init --apply <THIS_REPO>
 ```
+
+## Tampermonkey Scripts
+
+Self-written userscripts, stored in this repo for cross-machine sync. Not managed by chezmoi (in `.chezmoiignore`).
+
+Install on a new machine: Tampermonkey → Utilities → Import from URL:
+
+| Script | Install |
+|--------|---------|
+| BB Discussion Extractor | [Install](https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/BB-Discussion-Extractor.user.js) |
+| Claude Chat Exporter | [Install](https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/Claude-Chat-Exporter.user.js) |
+| 自动提取字幕工具 | [Install](https://raw.githubusercontent.com/MrDuan-DLy/dotfiles/main/tampermonkey/bb-transcript-extractor.user.js) |
 
 ## Claude Code `/notes` Skill
 
