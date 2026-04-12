@@ -53,8 +53,10 @@ Personal knowledge management for Obsidian vault:
 | Command | Description |
 |---------|-------------|
 | `/notes` | Dashboard: inbox count, review due, stats |
-| `/notes process` | Extract knowledge cards from `inbox.md` |
+| `/notes extract [topic]` | Extract durable notes directly from the current AI conversation |
+| `/notes process` | Process `inbox.md` into cards, references, glossaries, Daily blocks, and map updates |
 | `/notes review` | Spaced repetition review (SM-2) |
 | `/notes weekly` | Generate weekly learning summary |
 | `/notes query <topic>` | Search and show knowledge connections |
 | `/notes import <url>` | Import external content into vault |
+| `/notes maintain [scope]` | Audit note types, repair links, trim review noise, and improve map integration |
