@@ -93,7 +93,7 @@ Shortcut-heavy knowledge is usually stored as `reference` plus a small number of
 
 Use this when the user wants to turn the current AI conversation directly into notes.
 
-**Source URL handling:** The conversation arguments may begin with a line like `source: https://claude.ai/chat/...` before the actual conversation content. When present, use this URL as the `source` field in the frontmatter of **all** notes created or updated during this extraction (overriding the default `claude-chat` value). This lets the user trace any note back to the original conversation.
+**Source URL handling:** The conversation arguments may begin with a line like `source: https://claude.ai/chat/...` before the actual conversation content. When present, use this URL as the `source` field in the frontmatter of **all** notes created or updated during this extraction (overriding the default `claude-chat` value). This lets the user trace any note back to the original conversation. The same URL must also appear in the Daily Note extract block as a `**source**:` line (see step 5).
 
 1. Treat the current conversation as the source material.
 2. Identify durable knowledge rather than chat residue.
@@ -107,7 +107,7 @@ Use this when the user wants to turn the current AI conversation directly into n
 5. After creating or updating notes:
    - add 1-3 meaningful links,
    - update a matching map when one exists,
-   - append a Daily Note block summarizing what was extracted from the conversation.
+   - append a Daily Note block summarizing what was extracted. The block **must** include the source URL right after the `## 对话提取：...` heading as a `**source**: <URL>` line.
 6. Report created notes, updated notes, skipped ideas, and any maps touched.
 
 ### `process` — Process Inbox into Notes
@@ -132,6 +132,7 @@ Use this when the user wants to turn the current AI conversation directly into n
    - append a block to today's Daily Note rather than only dumping links.
 6. Daily Note blocks should usually include:
    - `对话提取：主题`
+   - `**source**: <URL>` — the conversation source URL, placed right after the heading so every extract is traceable
    - `新增笔记`
    - `已有笔记更新` when applicable
    - `对话摘要`
