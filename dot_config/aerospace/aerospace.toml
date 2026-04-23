@@ -52,7 +52,7 @@ persistent-workspaces = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
 
 [mode.main.binding]
     # Launch/switch essentials
-    alt-enter = 'exec-and-forget open -na kitty'
+    alt-t = 'exec-and-forget open -na kitty'
 
     # Layout
     alt-slash = 'layout tiles horizontal vertical'
