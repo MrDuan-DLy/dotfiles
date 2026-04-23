@@ -63,6 +63,7 @@ AeroSpace is installed by the Brewfile and configured at `~/.config/aerospace/ae
 | `alt-shift-tab` | Move workspace to next monitor |
 | `alt-shift-;`, then `r` | Reset/flatten current workspace layout |
 | `alt-shift-;`, then `f` | Toggle floating/tiling |
+| `alt-shift-;`, then `t` | Force current window into tiled layout |
 | `alt-shift-;`, then `b` | Balance window sizes |
 | `alt-shift-;`, then `esc` | Reload AeroSpace config |
 
