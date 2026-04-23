@@ -15,6 +15,7 @@ Thumbs.db
 # Non-chezmoi files (stored in repo but not managed as dotfiles)
 tampermonkey/
 README.md
+Brewfile
 
 # Transient state
 .bash_history
