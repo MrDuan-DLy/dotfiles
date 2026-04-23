@@ -59,7 +59,6 @@ AeroSpace is installed by the Brewfile and configured at `~/.config/aerospace/ae
 | `alt-/` | Toggle tiles orientation |
 | `alt-,` | Toggle accordion layout |
 | `alt--` / `alt-=` | Resize focused window |
-| `alt-tab` | Switch back to previous workspace |
 | `alt-shift-tab` | Move workspace to next monitor |
 | `alt-shift-;`, then `r` | Reset/flatten current workspace layout |
 | `alt-shift-;`, then `f` | Toggle floating/tiling |
