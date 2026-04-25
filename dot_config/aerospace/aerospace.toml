@@ -47,12 +47,13 @@ persistent-workspaces = ['1', '2', '3', '4', '5', '6', '7', '8', '9']
     run = 'layout floating'
 
 [[on-window-detected]]
-    if.app-name-regex-substring = 'kitty|Code|Google Chrome|Obsidian|Codex|ChatGPT'
+    if.app-name-regex-substring = 'Ghostty|kitty|Code|Google Chrome|Obsidian|Codex|ChatGPT'
     run = 'layout tiles'
 
 [mode.main.binding]
     # Launch/switch essentials
-    alt-t = 'exec-and-forget open -na kitty'
+    alt-t = 'exec-and-forget open -na Ghostty'
+    alt-shift-t = 'exec-and-forget open -na kitty'
 
     # Layout
     alt-slash = 'layout tiles horizontal vertical'

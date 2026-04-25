@@ -1,9 +1,15 @@
 # Secrets that should NEVER be managed by chezmoi unencrypted
 .ssh/id_*
+.ssh/*.pem
+.ssh/*.key
 .ssh/known_hosts
+.ssh/config.d/private*
+.config/chezmoi/key.txt
 .gnupg/
 .aws/credentials
+.aws/config
 .env
+.env.*
 .netrc
 .npmrc
 .pypirc
@@ -22,3 +28,7 @@ Brewfile
 .zsh_history
 .lesshst
 .python_history
+.wget-hsts
+
+# Neovim config is managed, but its nested starter git checkout is local state.
+.config/nvim/.git/**
