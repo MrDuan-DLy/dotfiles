@@ -142,8 +142,8 @@ AeroSpace is installed by the Brewfile and configured at `~/.config/aerospace/ae
 
 | Shortcut | Action |
 | --- | --- |
-| `alt-h/j/k/l` | Focus tiled window left/down/up/right |
-| `alt-shift-h/j/k/l` | Move focused window left/down/up/right |
+| `alt-ctrl-h/j/k/l` | Focus tiled window left/down/up/right |
+| `alt-ctrl-shift-h/j/k/l` | Move focused window left/down/up/right |
 | `alt-1` ... `alt-9` | Switch workspace |
 | `alt-shift-1` ... `alt-shift-9` | Move focused window to workspace |
 | `alt-/` | Toggle tiles orientation |
